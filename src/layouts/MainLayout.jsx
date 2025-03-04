@@ -1,7 +1,7 @@
 import { Outlet, useLocation } from "react-router-dom";
 
 import DynamicPageTitle from "../components/DynamicPageTitle";
-import Sidebar from "../components/sidebar.jsx";
+import Sidebar from "../components/sidebar";
 
 const routes = [
   {
