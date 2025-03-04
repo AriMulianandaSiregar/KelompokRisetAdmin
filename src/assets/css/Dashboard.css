@@ -1,0 +1,46 @@
+/* .dashboard-container {
+  padding: 20px;
+} */
+
+h2 {
+  font-weight: bold;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+  margin-top: 10px;
+}
+
+.dashboard-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  display: flex; /* Mengubah elemen menjadi flex container, memungkinkan child elements (children) di dalamnya diatur menggunakan Flexbox. */
+  flex-direction: column; /* Menyusun child elements secara vertikal (atas ke bawah). */
+  justify-content: space-between; /* Menyusun elemen dalam container agar elemen pertama berada di atas, elemen terakhir di bawah, dan sisanya tersebar dengan jarak yang sama di antaranya. */
+  max-height: 140px;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: bold;
+  /* flex: 40%; 40% dari tinggi card */
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.card-value {
+  font-size: 44px;
+  font-weight: bold;
+  color: #0056b3;
+  /* flex: 60%; 60% dari tinggi card */
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
