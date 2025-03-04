@@ -4,7 +4,7 @@ import { Container } from "react-bootstrap";
 
 import FormLogin from "../components/FormLogin";
 import "../assets/css/Login.css";
-import logoUAJY from "../assets/images/logo UAJY2.png";
+import logoUAJY from "../assets/images/logo uajy2.png";
 
 const LoginPage = () => {
   // const navigate = useNavigate();
